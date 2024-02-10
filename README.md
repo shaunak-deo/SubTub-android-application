@@ -1,4 +1,4 @@
-```markdown
+
 # SubTub - Shift Management Made Easy
 
 ## Table of Contents
