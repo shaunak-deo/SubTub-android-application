@@ -43,7 +43,7 @@ git clone https://github.com/yourusername/SubTub-Shift-Management.git
 5. Build and run the application.
 
 ## Usage
-
+![Workfolw](/Workflow.png)
 ### Admin Workflow
 - Login with admin credentials.
 - View and manage employee records and shifts.
@@ -55,8 +55,11 @@ git clone https://github.com/yourusername/SubTub-Shift-Management.git
 - Pick up or drop shifts as needed.
 
 ## Screenshots
-Include screenshots of the app in action here. For example:
-![Home Screen](/assets/home_screen.png)
+![Login](/5.png)
+![Scheduler](/4.png)
+![Shift picker](/3.png)
+![Calender](/2.png)
+!![Youtube Training](/1.png)
 
 ## Built With
 - [Kotlin](https://kotlinlang.org/) - The main programming language used.
