@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_shift_main"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_dnd"
+            android:id="@+id/iv_delete"
+            android:tint="@color/orange_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_sname"
+           app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv_delete"
+            app:layout_constraintEnd_toStartOf="@id/tv_slot"
+            android:text="Shift Name"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="5dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/open_sans_semi_bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_slot"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_sname"
+            app:layout_constraintEnd_toStartOf="@id/tv_stime"
+            android:text="Slot 2"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/open_sans_semi_bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_stime"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_slot"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="Time"
+            android:maxLines="2"
+            android:textColor="@color/orange_dark"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="16dp"
+            android:textSize="12sp"
+            android:fontFamily="@font/open_sans_semi_bold"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "488268904555",
+    "project_id": "subtub-d2e6b",
+    "storage_bucket": "subtub-d2e6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488268904555:android:bd17491912c0ca2e73192e",
+        "android_client_info": {
+          "package_name": "com.inshyft.subtub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488268904555-ntft620d90snn3di8vhcugjto7f3r2vu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inshyft.subtub",
+            "certificate_hash": "b2faad9aa9f9508fce44e8e368cadb4c225fb4b6"
+          }
+        },
+        {
+          "client_id": "488268904555-4retdscf31ssgu9vs8jdufbe5ibdeo7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYpBZypXi1VJ8woLZg9qbLrejk9DmsjWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488268904555-4retdscf31ssgu9vs8jdufbe5ibdeo7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
