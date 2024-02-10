@@ -39,7 +39,7 @@ git clone https://github.com/yourusername/SubTub-Shift-Management.git
 ```
 2. Open the project in Android Studio.
 3. Configure Firebase:
-4. Follow [Firebase's documentation] (https://firebase.google.com/docs) to connect the app with your Firebase project.
+4. Follow [Firebase's documentation](https://firebase.google.com/docs) to connect the app with your Firebase project.
 5. Build and run the application.
 
 ## Usage
